@@ -1,1 +1,75 @@
 @import 'normilize.css';
+@import 'fonts.css';
+
+@import 'logo.css';
+@import 'buttons.css';
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.centered-columns{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*** mobile css first *****/
+
+.wrapper{
+  width: 375px;
+  background-image: url('../img/mobile/background_main.svg');
+}
+
+main {
+  height: 812px;
+  position: relative;
+  padding: 20px 20px 0 20px;
+}
+
+main>h1{
+  font-family: Merriweather,sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #313131;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+main>p{
+  font-family: Golos, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #313131;
+  margin-bottom: 32px;
+}
+
+main>p>span{
+  display: block;
+}
+
+main>.btn-primary{
+  margin-bottom: 14px;
+}
+
+.ticker{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 38px;
+  width: 100%;
+  background-color: #F54932;
+}
+
+
+
+
+
+

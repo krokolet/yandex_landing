@@ -1,0 +1,23 @@
+.logo{
+  display: flex;
+  justify-content: space-between;
+  height: 32px;
+  width: 213px;
+  margin-bottom: 40px;
+}
+
+.logo_image{
+  background-image: url('../img/logo/horse_black.svg');
+  background-repeat: repeat-x;
+  width: 80px;
+}
+
+.logo_text{
+  width: 128px;
+  font-family: Golos,sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15px;
+  color:#595653;
+  text-transform: uppercase;
+}

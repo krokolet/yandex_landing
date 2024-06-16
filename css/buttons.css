@@ -1,0 +1,30 @@
+.btn-primary{
+  width: 100%;
+  height: 47px;
+  border-radius: 33px;
+  font-family: Golos, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  border: none;
+}
+
+.btn-white{
+  color: #1F1F1F;
+  background-color: #FFFFFF;
+}
+
+.btn-white:hover{
+  color:#FFFFFF;
+  background-color: #1F1F1F;
+}
+
+.btn-black{
+  color: #FFFFFF;
+  background-color: #1F1F1F;
+}
+
+.btn-black:hover{
+  color:#1F1F1F;
+  background-color: #FFFFFF;
+}
